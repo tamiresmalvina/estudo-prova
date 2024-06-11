@@ -1,8 +1,8 @@
 version: "3.8"
 services:
-    apache:
+    apachenovo:
         image: httpd:alpine
-        container_name: 'Apache'
+        container_name: 'Apachenovo'
         ports:
             - 80:80
         volumes:
